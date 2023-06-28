@@ -21,3 +21,17 @@ class 클래스명 extends React.Component {
     }
   }
 ```
+
+## 함수형 컴포넌트 구조
+```
+const 클래스명 = ()=>{
+    const [state, setState] = React.useState(false);
+
+    return (
+        <button onClick={() => setState(true)}>
+          Like
+        </button>
+    )
+}
+```
+
