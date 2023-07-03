@@ -38,3 +38,7 @@ const 클래스명 = ()=>{
 ## Node
 Node는 자바스크립트 실행기 
 
+## webpack
+설치
+
+`npm i -D webpack webpack-cli`
